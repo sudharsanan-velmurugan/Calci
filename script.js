@@ -2,17 +2,17 @@
 let display=document.getElementById("display")
 
 let add = ()=> {
-    let firstvalue=Number(document.getElementById("firstvalue").value)
-    let secondvalue=Number(document.getElementById("secondvalue").value)
-    let addition= firstvalue+ secondvalue
-    display.innerText=addition
+    let firstvalue = Number(document.getElementById("firstvalue").value)
+    let secondvalue = Number(document.getElementById("secondvalue").value)
+    let addition = firstvalue+ secondvalue
+    display.innerText = addition
 
 }
 let sub = ()=> {
-    let firstvalue=Number(document.getElementById("firstvalue").value)
-    let secondvalue=Number(document.getElementById("secondvalue").value)
-    let subraction= firstvalue - secondvalue
-    display.innerText=subraction
+    let firstvalue = Number(document.getElementById("firstvalue").value)
+    let secondvalue = Number(document.getElementById("secondvalue").value)
+    let subraction = firstvalue - secondvalue
+    display.innerText = subraction
 
 }
 let mul = ()=> {
