@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    
+      <header>
+        <h1>JAVASCRIPT CALCULATOR</h1>
+      </header>
+    
+    <div class="firstbox">
+      <label for="firstvalue">Firstvalue</label>
+      <input type="number" id="firstvalue" />
+      <label for="secondvalue">Secondvalue</label>
+      <input type="number" id="secondvalue" />
+    </div>
+    <div class="secondbox">
+      <button onclick="add()">add</button>
+      <button onclick="sub()">sub</button>
+      <button onclick="mul()">mul</button>
+      <button onclick="div()">div</button>
+      <button onclick="mod()">mod</button>
+      <button onclick="pow()">pow</button>
+    </div>
+    <div class="thirdbox">
+      <p> THE ANSWER IS </p>
+      <p id="display"></p>
+    </div>
+  </body>
+</html>
